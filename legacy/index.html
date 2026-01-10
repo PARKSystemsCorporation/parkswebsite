@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legacy Department — PARKSYSTEMS CORPORATION</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html, body {
+            height: 100%;
+        }
+
+        body {
+            background-color: #000;
+            color: #888;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            text-align: center;
+            padding: 2rem;
+            line-height: 1.6;
+        }
+
+        main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 2rem;
+            max-width: 600px;
+        }
+
+        header {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 0.75rem;
+        }
+
+        .back {
+            font-size: 0.75rem;
+            color: #555;
+            text-decoration: none;
+            letter-spacing: 0.1em;
+            transition: color 0.2s ease;
+        }
+
+        .back:hover {
+            color: #888;
+        }
+
+        h1 {
+            font-size: 1.25rem;
+            font-weight: 600;
+            letter-spacing: 0.12em;
+            color: #999;
+            text-transform: uppercase;
+        }
+
+        .subtitle {
+            font-size: 0.85rem;
+            color: #666;
+            margin-top: 0.25rem;
+        }
+
+        .repos {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 2rem;
+            margin-top: 1.5rem;
+        }
+
+        .repo {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 0.4rem;
+        }
+
+        .repo a {
+            color: #777;
+            text-decoration: none;
+            font-size: 0.9rem;
+            letter-spacing: 0.03em;
+            transition: color 0.2s ease;
+        }
+
+        .repo a:hover {
+            color: #aaa;
+        }
+
+        .repo .desc {
+            font-size: 0.75rem;
+            color: #555;
+            max-width: 400px;
+        }
+
+        .divider {
+            width: 1px;
+            height: 20px;
+            background-color: #333;
+            margin: 0.5rem 0;
+        }
+
+        footer {
+            position: absolute;
+            bottom: 2.5rem;
+            font-size: 0.75rem;
+            color: #555;
+            letter-spacing: 0.02em;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <header>
+            <a href="/index.html" class="back">← PARKSYSTEMS CORPORATION</a>
+            <h1>Legacy Department</h1>
+            <p class="subtitle">Open source. No support. No warranty.</p>
+        </header>
+        <div class="divider">
+        </div>
+        <section class="repos">
+            <article class="repo">
+                <a href="https://github.com/PARKSystemsCorporation/protolang">
+                    PROTOLANG
+                </a>
+                <p class="desc">
+                    client side deterministic query language and
+                    execution engine
+                </p>
+            </article>
+
+            <div class="divider">               
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>
+            © PARKSYSTEMS Corporation
+        </p>
+    </footer>
+</body>
+</html>
